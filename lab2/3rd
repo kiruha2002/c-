@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
   {
-  int a,b;
-cin » a;
+  int a, b;
+cin >> a;
 b = 0;
 while (a != 0)
   {
@@ -13,7 +13,7 @@ while (a != 0)
     {
     b++;
     }
-  cin » a;
+  cin >> a;
   }
-  cout « b « endl;
+  cout << b << endl;
  }
