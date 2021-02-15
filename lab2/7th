@@ -1,5 +1,5 @@
 #include <iostream>
-#include<cmath>
+#include <cmath>
 
 
 using namespace std;
@@ -10,7 +10,7 @@ int main() {
   int b = 1;
   int i = 2;
   int c;
-  cin » a;
+  cin >> a;
   c= floor(sqrt(a));
   while (i <= c)
     {
@@ -22,6 +22,6 @@ int main() {
   i++;
   }
 
-cout « b;
+cout << b;
 
 }
