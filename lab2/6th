@@ -8,7 +8,7 @@ int main() {
   M = 0;
   while (true)
     {
-    cin » a;
+    cin >> a;
     if (a == 0)
 
       {
@@ -27,6 +27,6 @@ int main() {
       }
     }
 
-  cout « N;
+  cout << N;
   return 0;
 }
