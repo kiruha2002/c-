@@ -1,5 +1,5 @@
 #include <iostream>
-#include<math.h>
+#include <cmath>
 
 using namespace std;
 
@@ -8,7 +8,7 @@ int main() {
   int i = 2;
   bool b;
   int c;
-  cin » a;
+  cin >> a;
   while (a != 1)
     {
     c = floor(sqrt(a));
@@ -18,7 +18,7 @@ int main() {
       b = true;
       if (a % i == 0)
         {
-        cout « i « endl;
+        cout << i << endl;
         a = a / i;
         b = false;
         break;
@@ -27,7 +27,7 @@ int main() {
     }
   if (b)
   {
-  cout « a;
+  cout << a;
   a = 1;
   break;
   }
