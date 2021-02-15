@@ -1,5 +1,5 @@
 #include <iostream>
-#include<string>
+#include <string>
 
 
 using namespace std;
@@ -11,8 +11,8 @@ int main() {
   int zp = 0;
   string Boss = "A999AA";
   string Nomer;
-  cin » speed;
-  cin » Nomer;
+  cin >> speed;
+  cin >> Nomer;
   while (Nomer != Boss)
     {
     if (speed > 60)
@@ -33,10 +33,10 @@ int main() {
           zp += 100;
         }
        }
-      cin » speed;
-      cin » Nomer;
+      cin >> speed;
+      cin >> Nomer;
 
       }
-  cout « zp;
+  cout << zp;
 
 }
