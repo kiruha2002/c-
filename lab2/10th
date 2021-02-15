@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 
 
 using namespace std;
@@ -13,18 +13,18 @@ void babylon(int chislo) {
   chislo = chislo % 60;
   for (int i = 0; i < (chislo / 10); i++)
     {
-    cout « "<";
+    cout << "<";
     }
   for (int i = 0; i < (chislo % 10); i++)
     {
-    cout « "v";
+    cout << "v";
     }
-  cout « ".";
+  cout << ".";
   }
 
 int main() {
   int chislo;
-  cin » chislo;
+  cin >> chislo;
   int temp;
   if (chislo / 60 != 0)
     {
@@ -33,10 +33,10 @@ int main() {
   chislo = chislo % 60;
   for (int i = 0; i < (chislo / 10); i++)
     {
-    cout « "<";
+    cout << "<";
     }
   for (int i = 0; i < (chislo % 10); i++)
     {
-    cout « "v";
+    cout << "v";
   }
 }
