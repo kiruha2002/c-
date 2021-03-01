@@ -1,9 +1,0 @@
-void constr_list(dyn_list &l)
-{
-	l.head = NULL;
-}
-
-bool chk_empty(dyn_list l)
-{
-	return (l.head==NULL);
-}
