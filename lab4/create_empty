@@ -1,14 +1,13 @@
-#include <fstream>
 #include <iostream>
-#include <cstdlib>
+#include <list>
+#include <iterator>
 
+using namespace std;
 
-void constr_list(dyn_list &l)
-{
-	l.head = NULL;
-}
+int main(){
+    struct listNode{
 
-bool chk_empty(dyn_list l)
-{
-	return (l.head==NULL);
+                list<int> list1;
+
+                };
 }
