@@ -1,1 +1,4 @@
-
+Public void Enqueue(T value)
+{
+    _items.AddFirst(value);
+}
