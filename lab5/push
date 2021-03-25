@@ -1,9 +1,0 @@
-public T Peek()
-{
-    if (_items.Count == 0)
-    {
-        throw new InvalidOperationException("The stack is empty");
-    }
-
-    return _items.Tail.Value;
-}
